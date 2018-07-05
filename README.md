@@ -40,6 +40,9 @@ Fn Flow provides a way to orchestrate functions to build sophisticated applicati
 
 Let's follow the [Flow 102](http://fnproject.io/tutorials/Flow102/) tutorial to get a feel for how this orchestration system works. Your environment already has the Flow server running so we can skip over the Flow 101 tutorial for now.
 
+## Section 4 - Further work
+If you finished quickly enough you might want to take a look at these further tutorials:
+
 ### Troubleshooting
 
 If you've been following the instructions in the tutorials carefully you
