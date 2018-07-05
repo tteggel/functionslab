@@ -14,67 +14,29 @@ perform an action.
 
 ## Section 1 - Setting up a Docker Environment
 
-* [Docker Options](vm.md)
+* Log in to your lab machine. You will have been given a printout with your login details. You will need an ssh client to log in. If you are on Windows we reccommend [Putty]() or the [SSH Chrome Extension]().
 
-## Section 2 - Verifying your Docker Install
+## Section 2 - Lab Setup
 
-Before we get started with functions we're going to verify that Docker is
-installed and working. In a terminal, type the following command:
-
-![](images/userinput.png)
->```
-> docker --version
->```
-
-If Docker is installed and running, you should see output something like:
-
-```
-Docker version 17.0x.x-ce, build 276fd32
-```
-
-NOTE: Depending on how you've installed Docker you may need to prefix `docker`
-commands with `sudo` in which case you would have to type:
-
-![](images/userinput.png)
->```
-> sudo docker --version
->```
-
-## Section 3 - Functions
-
-With Docker successfully installed it's time to move on to functions.
-Functions as a Service (FaaS) platforms provide a way to deploy code to
-the cloud without having to worry about provisioning or managing any compute
-infrastructure. The goal of the open source Fn project is to provide a functions
-platform that you can run anywhere--on your laptop or in the cloud. And Fn will
-also be the basis of a fully serverless FaaS platform.  With Fn you can develop
-locally and deploy to the cloud knowing your functions are running on *exactly*
-the same underlying platform.
-
-### Installing Fn
-
-You've got Docker installed so the principal Fn prerequisite is satisfied. So
-let's start by [Installing Fn](http://fnproject.io/tutorials/install).
+We have already installed Docker and the Fn servers for you. If, after this workshop, you want to install this yourself on another machine the [instructions are here]().
 
 ### Your First Function
 
 Now that the Fn server and CLI are installed we can dig into the creation and
 running of functions.  In this tutorial you'll create, run locally, and deploy
-a Go function.  If you aren't a Go programmer don't panic! All the code is
+a Node.js function.  If you aren't a JavaScript programmer don't panic! All the code is
 provided and is pretty easy to understand.  The focus of this tutorial is on
-becoming familiar with the basics of Fn, not Go programming.
+becoming familiar with the basics of Fn, not programming.
 
-So let's [create and deploy your first function](http://fnproject.io/tutorials/Introduction).
+Node.js is just one of the many language runtimes we support, and you can even use a 
+docker image for ultimate flexibility.
 
-### Introducing the Java Function Developer Kit
+So let's [create and deploy your first function](http://fnproject.io/tutorials/node/intro/).
 
-Fn provides an FDK (Function Developer Kit) for each of the core supported
-programming languages.  But the Java FDK is the most advanced with support for
-Maven builds, automatic function argument type conversions, and comprehenive
-support for function testing with JUnit.
+### Fn Flow
+Fn Flow provides a way to orchestrate functions to build sophisticated applications, initially using Java, and soon with other programming languages. Although the orchestration is currently written in Java, other parts of your application can be in any language.
 
-The [Introduction to Java Functions](http://fnproject.io/tutorials/JavaFDKIntroduction)
-tutorial covers all these topics and more.
+Let's follow the [Flow 102](http://fnproject.io/tutorials/Flow102/) tutorial to get a feel for how this works. Your environment already has the Flow server running so we can skip over the Flow 101 tutorial for now.
 
 ### Troubleshooting
 
