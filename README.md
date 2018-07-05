@@ -34,9 +34,9 @@ docker image for ultimate flexibility.
 So let's [create and deploy your first function](http://fnproject.io/tutorials/node/intro/).
 
 ### Fn Flow
-Fn Flow provides a way to orchestrate functions to build sophisticated applications, initially using Java, and soon with other programming languages. Although the orchestration is currently written in Java, other parts of your application can be in any language.
+Fn Flow provides a way to orchestrate functions to build sophisticated applications, initially using Java, and soon with other programming languages. Although the orchestration is currently written in Java, one of the coolest features of Fn is that while it's easy to write functions in various programming languages, you can also deploy Docker images as functions. This opens up entire world's of opportunity as you can package existing code, utilities, or use a programming language not yet supported by Fn.
 
-Let's follow the [Flow 102](http://fnproject.io/tutorials/Flow102/) tutorial to get a feel for how this works. Your environment already has the Flow server running so we can skip over the Flow 101 tutorial for now.
+Let's follow the [Flow 102](http://fnproject.io/tutorials/Flow102/) tutorial to get a feel for how this orchestration system works. Your environment already has the Flow server running so we can skip over the Flow 101 tutorial for now.
 
 ### Troubleshooting
 
@@ -46,15 +46,6 @@ when you're writing code things go wrong--builds fail, exceptions are thrown,
 etc.  Fortunately the [Troubleshooting](http://fnproject.io/tutorials/Troubleshooting)
 tutorial introduces techniques you can use to track down the source of a
 failure.
-
-### Containers as Functions
-
-One of the coolest features of Fn is that while it's easy to write functions
-in various programming languages, you can also deploy Docker images as
-functions. This opens up entire world's of opportunity as you can package
-existing code, utilities, or use a programming language not yet supported by
-Fn.  Try the [Containers as Functions](http://fnproject.io/tutorials/ContainerAsFunction/)
-tutorial to see how easy it is.
 
 ### Function Applications
 
