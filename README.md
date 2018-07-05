@@ -20,6 +20,8 @@ perform an action.
 
 We have already installed Docker and the Fn servers for you. If, after this workshop, you want to install this yourself on another machine the [instructions are here]().
 
+## Section 3 - The Lab
+
 ### Your First Function
 
 Now that the Fn server and CLI are installed we can dig into the creation and
